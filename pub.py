@@ -43,7 +43,7 @@ corpus = [preprocess(sentence) for sentence in sentences]  # Corpus prétraité 
 # Fonction de recherche de la phrase la plus pertinente
 def get_most_relevant_sentence(query):  # Fonction pour obtenir la phrase la plus pertinente
     query = preprocess(query)  # Prétraiter la requête de l'utilisateur
-    max_similarity = -1  # Initialisation de la similarité maximale
+    max_similarity = 0  # Initialisation de la similarité maximale
     most_relevant_sentence = ""  # Phrase la plus pertinente
 
     # Comparaison de la requête avec chaque phrase du corpus
