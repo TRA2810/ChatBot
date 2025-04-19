@@ -13,7 +13,7 @@ from nltk.tokenize import word_tokenize, sent_tokenize  # sent_tokenize : utilis
 from nltk.stem import WordNetLemmatizer  # WordNetLemmatizer permet de faire de la lemmatisation
 
 # Chargement du texte (en français ici)
-with open('pub_entreprise.txt', 'r', encoding='utf-8') as f:
+with open('Agriculture.txt', 'r', encoding='utf-8') as f:
     data = f.read().replace('\n', '')
 
 # Découpage du texte en phrases
