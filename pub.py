@@ -63,7 +63,7 @@ def get_most_relevant_sentence(query):  # Fonction pour obtenir la phrase la plu
 
 # Interface streamlit 
 st.title('chatbot eclat brillant')
-question=st.text_input('posez des questions sur nos produits: ')
+question=st.text_input('Vous vouler en connaitre d'avantage sur l'agriculture: ')
 if question:
     response=get_most_relevant_sentence(question)
     st.write('Reponse:',response)
